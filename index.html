@@ -783,9 +783,24 @@
             <option>Roofing & Insulation</option>
             <option>Accessibility Works</option>
             <option>Other / Multiple Services</option>
-          </select>
-          <textarea placeholder="Describe your project — size, location, timeline..."></textarea>
-          <button class="btn-primary" onclick="alert('Thank you! We will call you within 24 hours. Or call us now on 0860670754.')">Send Message &rarr;</button>
+          <section id="contact">
+  <h2>Get a Free Quote</h2>
+  <form action="https://formspree.io/f/mykqjyej" method="POST">
+    <input type="text" name="name" placeholder="Your Full Name">
+    <input type="tel" name="phone" placeholder="Your Phone Number">
+    <input type="email" name="email" placeholder="Your Email">
+    <select name="service">
+      <option value="">Select a Service</option>
+      <option>New Build</option>
+      <option>Extension</option>
+      <option>Renovation</option>
+      <option>Roofing</option>
+      <option>Other</option>
+    </select>
+    <textarea name="message" placeholder="Describe your project..."></textarea>
+    <button type="submit">Request Free Quote</button>
+  </form>
+</section>('Thank you! We will call you within 24 hours. Or call us now on 0860670754.')">Send Message &rarr;</button>
         </div>
       </div>
     </div>
